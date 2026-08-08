@@ -98,3 +98,6 @@ Unele aplicatii nu pornesc sau dau crash la firmware un motiv ar fi ca sunt porn
 Partitia de Android se gaseste in meniul **More Configs**->**LineageOS**.
 ![[Options.bmp]]
 
+# Emulatoare in CFW HOS (Horizon Operating Sistem) WIP
+Aici puteti vedea cum se instaleaza jocuri, precum si unele configuratii pentru emulatoarele din sistemul instalat si instalarea lor deasemenea dupa serviciul de modare. Pe aceste emulatoare va puteti juca jocuri de pe console mai vechi decat consola Nintendo Switch, ca exemplu fiind **Nintendo Entertainment System (NES)**, **Super Nintendo Entertainment System (SNES)**, **PlayStation Portable(PSP)** si multe altele care vor fi adaugate pe rand. Lista cu emulatoarele si jocurile aferente poate fi gasita mai jos:
+## Nintendo Entertainment System(NES)
