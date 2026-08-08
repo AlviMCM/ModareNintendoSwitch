@@ -15,7 +15,7 @@ Site-uri pentru jocuri:
 ---
 # Pornirea consolei
 
-Pentru inceput daca consola este oprita pentru a executa payload-ul instalat dupa modare se va apasa scurt butonul de pornire si se v-a astepta cateva secunde pentru ca consosola sa intre in bootloaderul **HEKATE IPL**.. Este posibil ca consola sa nu porneasca din prima incercare din diverse motive, astfel se v-a repeta din nou apasarea butonului pana ce va intra in bootloader.
+Pentru inceput daca consola este oprita pentru a executa payload-ul instalat dupa modare se va apasa scurt butonul de pornire si se va astepta cateva secunde pentru ca consosola sa intre in bootloaderul **HEKATE IPL**. Este posibil ca consola sa nu porneasca din prima incercare din diverse motive, astfel se va repeta din nou apasarea butonului pana ce va intra in bootloader.
 **ATENTIE! A NU SE APASA LUNG PE BUTONUL DE PORNIRE** 
 
 ![[Pasted image 20250919133246.png]]
@@ -25,7 +25,7 @@ Pentru inceput daca consola este oprita pentru a executa payload-ul instalat dup
 # Official Firmware sau Custom Firmware sau Android
 
 ## Official Firmware
-Pentru a accesa Firmware-ul original cu care a venit consola, dupa ce s-a incarcat **Bootloaderul Hekate IPL** se va apasa cu degetul pe butonul de **Reboot** apoi se v-a selecta **OFW** (**Normal** inseamna ca va intra din nou in **HEKATE IPL**).
+Pentru a accesa Firmware-ul original cu care a venit consola, dupa ce s-a incarcat **Bootloaderul Hekate IPL** se va apasa cu degetul pe butonul de **Reboot** apoi se va selecta **OFW** (**Normal** inseamna ca va intra din nou in **HEKATE IPL**).
 Aici puteti folosi Switch-ul in mod normal cum a venit din fabrica.
 
 ---
@@ -36,7 +36,7 @@ Aici puteti folosi Switch-ul in mod normal cum a venit din fabrica.
 ---
 ## Custom Firmware **ATENTIE!**
 
-Pentru a intra in Firmware-ul custom care te v-a lasa sa instalezi jocuri backup sau sa aplici teme custom sau tot felul de modificari software ale consolei, **MAJORITATEA TIMPULUI SE VA SELECTA EMUMMC CFW** din meniul **Launch**, celelalte optiuni sunt pentru utilizatorii avansati care stiu ce vor sa faca.
+Pentru a intra in Firmware-ul custom care te va lasa sa instalezi jocuri backup sau sa aplici teme custom sau tot felul de modificari software ale consolei, **MAJORITATEA TIMPULUI SE VA SELECTA EMUMMC CFW** din meniul **Launch**, celelalte optiuni sunt pentru utilizatorii avansati care stiu ce vor sa faca.
 
 ---
 
@@ -46,7 +46,7 @@ Pentru a intra in Firmware-ul custom care te v-a lasa sa instalezi jocuri backup
 ---
 ### Instalare de jocuri
 Dupa ce s-a incarcat, puteti sa va jucati jocurile instalate la cerere sau puteti instala jocuri la randul vostru.
-Pentru a instala un joc, recomand sa folositi **DB Installer/DBI** care il puteti accesa din meniul de **Album**. Urmatorul pas este sa conectati consola la un **PC/Laptop** (voi folosi **Windows**), apoi se v-a executa **Run MTP responder** din acea lista, un folder ar trebui sa se deschida automat, puteti instala jocuri in **copiind fisierele dezarhivate(cu WinRAR sau 7zip) in partitia SD Card Install (se pot instala mai multe deodata)**. Daca jocul nu este actualizat instalati si update-ul pentru joc care de obicei este descarcat separat.
+Pentru a instala un joc, recomand sa folositi **DB Installer/DBI** care il puteti accesa din meniul de **Album**. Urmatorul pas este sa conectati consola la un **PC/Laptop** (voi folosi **Windows**), apoi se va executa **Run MTP responder** din acea lista, un folder ar trebui sa se deschida automat, puteti instala jocuri in **copiind fisierele dezarhivate(cu WinRAR sau 7zip) in partitia SD Card Install (se pot instala mai multe deodata)**. Daca jocul nu este actualizat instalati si update-ul pentru joc care de obicei este descarcat separat.
 
 ---
 
@@ -82,7 +82,7 @@ Pentru a instala o tema noua, se va utiliza **Themezer-NX** sau daca nu function
 
 ---
 ### Altele
-Unele aplicatii nu pornesc sau dau crash la firmware un motiv ar fi ca sunt pornite in modul **Applet**, o posibila remediere este sa il porniti in modul **Full memory/Non-Applet** tinand apasat butonul **R** de pe joycon in timp ce porniti un joc si selectati user-ul, daca ati executat cu bine instructiunea se va deschide **HBMENU** si nu v-a aparea **Applet Mode**.
+Unele aplicatii nu pornesc sau dau crash la firmware un motiv ar fi ca sunt pornite in modul **Applet**, o posibila remediere este sa il porniti in modul **Full memory/Non-Applet** tinand apasat butonul **R** de pe joycon in timp ce porniti un joc si selectati user-ul, daca ati executat cu bine instructiunea se va deschide **HBMENU** si nu va aparea **Applet Mode**.
 
 ---
 #### Applet
