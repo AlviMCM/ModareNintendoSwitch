@@ -20,13 +20,13 @@ Pentru inceput daca consola este oprita pentru a executa payload-ul instalat dup
 **ATENTIE! A NU SE APASA LUNG PE BUTONUL DE PORNIRE** 
 
 ![[Pasted image 20250919133246.png]]
-![[Pasted image 20250919133347.png]]
+![[Hekate.png]]
 
 ---
-# Official Firmare sau Custom Firmware sau Android
+# Official Firmware sau Custom Firmware sau Android
 
 ## Official Firmware
-Pentru a accesa Firmware-ul original cu care a venit consola, dupa ce s-a incarcat **Bootloaderul Hekate IPL** se va apasa cu degetul pe butonul de **Reboot** apoi se v-a selecta **OFW** (**Normal** inseamna ca v-a intra din nou in **HEKATE IPL**).
+Pentru a accesa Firmware-ul original cu care a venit consola, dupa ce s-a incarcat **Bootloaderul Hekate IPL** se va apasa cu degetul pe butonul de **Reboot** apoi se v-a selecta **OFW** (**Normal** inseamna ca va intra din nou in **HEKATE IPL**).
 Aici puteti folosi Switch-ul in mod normal cum a venit din fabrica.
 
 ---
@@ -42,7 +42,7 @@ Pentru a intra in Firmware-ul custom care te v-a lasa sa instalezi jocuri backup
 ---
 
 ![[Launch.bmp]]
-![[nyx20250819_103431.bmp]]
+![[Launcher.bmp]]
 
 ---
 ### Instalare de jocuri
@@ -97,5 +97,5 @@ Unele aplicatii nu pornesc sau dau crash la firmware un motiv ar fi ca sunt porn
 ---
 ## Android
 Partitia de Android se gaseste in meniul **More Configs**->**LineageOS**.
-![[nyx20250819_103441.bmp]]
+![[Options.bmp]]
 
