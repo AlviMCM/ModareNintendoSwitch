@@ -1,13 +1,6 @@
 ---
 title: "Ghid Modare Nintendo Switch"
 ---
-[[#Teme personalizate| Vezi temele personalizate]]
-
-
-
-
-
-
 
 Bun venit la tutorialul care te va ajuta sa folosesti Nintendo Switch-ul modat.
 Site-uri pentru jocuri:
