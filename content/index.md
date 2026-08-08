@@ -2,6 +2,7 @@
 title: "Ghid Modare Nintendo Switch"
 ---
 Tutorial actualizat pe data de **09.08.2026!**
+
 Bun venit la tutorialul care te va ajuta sa folosesti Nintendo Switch-ul modat.
 Site-uri pentru jocuri:
 * https://not.ultranx.ru - **Recomandare primara**
