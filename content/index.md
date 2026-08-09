@@ -1,7 +1,7 @@
 ---
 title: "Ghid Modare Nintendo Switch"
 ---
-Tutorial actualizat pe data de **09.08.2026!**
+Tutorial actualizat pe data de **09.08.2026!** Foloseste [[#^Glosar|Glosarul]] pentru termeni necunoscuti.
 
 Bun venit la tutorialul care te va ajuta sa folosesti Nintendo Switch-ul modat.
 Site-uri pentru jocuri:
@@ -84,20 +84,35 @@ Pentru a instala o tema noua, se va utiliza **Themezer-NX** sau daca nu function
 ### Altele
 Unele aplicatii nu pornesc sau dau crash la firmware un motiv ar fi ca sunt pornite in modul **Applet**, o posibila remediere este sa il porniti in modul **Full memory/Non-Applet** tinand apasat butonul **R** de pe joycon in timp ce porniti un joc si selectati user-ul, daca ati executat cu bine instructiunea se va deschide **HBMENU** si nu va aparea **Applet Mode**.
 
----
 #### Applet
 ![[2025091914342700.jpg]]
 
----
 #### Non-Applet
 ![[2025091914344400.jpg]]
 ![[2025091914342700 1.jpg]]
 
----
 ## Android
 Partitia de Android se gaseste in meniul **More Configs**->**LineageOS**.
 ![[Options.bmp]]
 
+# Aplicatia HATS Tools WIP
+Am ajuns sa prefer aceasta aplicatie comparativ cu **DBI** deoarece include mai multe facilitati destul de importante si deasemenea include si unelete de instalat jocuri ca si in **DBI** si are un design mult mai placut. Aceasta aplicatie este esentiala pentru **actualizarea pachetului HATS** fara a mai folosi un calculator, dar mai mult si de a face **upgrade/downgrade firmware-ului** sau instalarea de **aplicatii** si **jocuri**. Mai jos voi include cateva dintre facilitatile acestei aplicatii:
+## APP SHOP (Instalare aplicatii)
+Aceasta facilitate a aplicatiei va usureaza mult mai mult munca de instalare a aplicatiilor, in cazul in care acestea functioneaza si nu trebuie un build custom de la comunitatea de modare. Tot ce trebuie sa faceti este dati click (cu degetul sau controlerul) pe pictograma **APP SHOP**, iar apoi la fel pe aplicatia pe care vreti sa o instalati, dupa care apasati pe butonul de **Install**. Dupa ce ati instalat aplicatia, aveti doua optiuni **Launch** sau **Remove**, prima **lanseaza** aplicatia, iar a doua o **dezinstaleaza**. Aplicatia va aparea in **HBMENU** dupa ce ati terminat instalarea. Daca doriti sa va apare pe **HOME SCREEN(Ecranul Principal)** folositi aplicatia **SPHAIRA**. 
+
 # Emulatoare in CFW WIP
-Aici puteti vedea cum se instaleaza jocuri, precum si unele configuratii pentru emulatoarele din sistemul instalat si instalarea lor deasemenea dupa serviciul de modare. Pe aceste emulatoare va puteti juca jocuri de pe console mai vechi decat consola Nintendo Switch, ca exemplu fiind **Nintendo Entertainment System (NES)**, **Super Nintendo Entertainment System (SNES)**, **PlayStation Portable(PSP)** si multe altele care vor fi adaugate pe rand. Lista cu emulatoarele si jocurile aferente poate fi gasita mai jos:
-## Nintendo Entertainment System(NES)
+>[!tip] **Retroarch**
+>Chiar daca Retroarch cuprinde majoritatea emulatoarelor, am observat de-a lungul timpului ca cele instalate individual sunt mai performante decat nucleele din Retroarch. De multe ori in Retroarch am avut probleme cu **performanta** si sistemul **audio** si am stat mult timp sa incerc sa il fac sa mearga pe dispozitivele mai low end in trecut (Nintendo avand aceeasi problema), asa ca am decis ca este mai rapid si mai performant sa introduc in tutorial emulatoarele separat!
+
+Aici puteti vedea cum se instaleaza jocuri, precum si unele configuratii pentru emulatoarele din sistemul instalat si instalarea lor deasemenea dupa serviciul de modare. Pe aceste va puteti juca jocuri de pe console mai vechi decat consola Nintendo Switch, ca exemplu fiind **Nintendo Entertainment System (NES)**, **Super Nintendo Entertainment System (SNES)**, **PlayStation Portable(PSP)**, altele mai noi pur si simplu nu ar functiona din cauza puterii reduse a consolei, de exemplu **PlayStation 3(PS3)** sau cu performanta redusa in CFW **PlayStation 2(PS2)** dar pot functiona mai bine in mediul **Android**. Multe alte emulatoare vor fi adaugate in ghid pe rand cu tot cu explicatii si link-uri necesar. Lista cu emulatoarele si jocurile aferente poate fi gasita mai jos:
+## Nintendo Entertainment System(NES)![[PNES.png|64]]
+Acest emulator te va ajuta sa te joci jocurile din trecut de pe consola de jocuri **Nintendo Entertainment System(NES)** direct de pe **CFW**. Acest emulator **NU NECESITA BIOS** si trebuie doar sa puneti jocurile (**ROM**) in locatia **sdcard->switch->pnes->roms->"jocul tau.NES"** asta dupa ce ati instalat aplicatia. Exista doua variante pentru instalare:
+### Varianta 1: [[#APP SHOP (Instalare aplicatii)|HATS Tools APP SHOP]] (Recomandat!)
+Asta este cea mai simpla metoda de instalarea a aplicatiei. Folositi tutorialul din ghid si instalati direct aplicatia din **APP SHOP**.
+
+
+>[!question]  Glosar ^Glosar
+>**WIP** = Work In Progress = In lucru
+>**CFW** = Custom Firmware = Sistem operare customizat
+>**OFW** = Official Firmware = Sistem operare oficial
+>**ROM** = Read Only Memory = Fisier binar ce contine de regula jocul
