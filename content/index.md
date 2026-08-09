@@ -1,7 +1,8 @@
 ---
-title: "Ghid Modare Nintendo Switch"
+title: Ghid Modare Nintendo Switch
+password: PicoFlyRomania
 ---
-Tutorial actualizat pe data de **09.08.2026!** Foloseste [[#^Glosar|Glosarul]] pentru termeni necunoscuti.
+Tutorial actualizat pe data de **09.08.2026!** Foloseste [[index#^glosar|Glosarul]] pentru termeni necunoscuti.
 
 Bun venit la tutorialul care te va ajuta sa folosesti Nintendo Switch-ul modat.
 Site-uri pentru jocuri:
@@ -18,8 +19,8 @@ Site-uri pentru jocuri:
 Pentru inceput daca consola este oprita pentru a executa payload-ul instalat dupa modare se va apasa scurt butonul de pornire si se va astepta cateva secunde pentru ca consosola sa intre in bootloaderul **HEKATE IPL**. Este posibil ca consola sa nu porneasca din prima incercare din diverse motive, astfel se va repeta din nou apasarea butonului pana ce va intra in bootloader.
 **ATENTIE! A NU SE APASA LUNG PE BUTONUL DE PORNIRE** 
 
-![[Pasted image 20250919133246.png]]
-![[Hekate.png]]
+![[Pasted image 20250919133246.png|800]]
+![[Hekate.png|800]]
 
 ---
 # Official Firmware sau Custom Firmware sau Android
@@ -30,8 +31,8 @@ Aici puteti folosi Switch-ul in mod normal cum a venit din fabrica.
 
 ---
 
-![[reboot.bmp]]
-![[ofwornormal.bmp]]
+![[reboot.bmp|800]]
+![[ofwornormal.bmp|800]]
 
 ---
 ## Custom Firmware **ATENTIE!**
@@ -40,8 +41,8 @@ Pentru a intra in Firmware-ul custom care te va lasa sa instalezi jocuri backup 
 
 ---
 
-![[Launch.bmp]]
-![[Launcher.bmp]]
+![[Launch.bmp|800]]
+![[Launcher.bmp|800]]
 
 ---
 ### Instalare de jocuri
@@ -50,13 +51,13 @@ Pentru a instala un joc, recomand sa folositi **DB Installer/DBI** care il putet
 
 ---
 
-![[Album.jpg]]
-![[HBMENU_DBI.jpg]]
-![[2025091913474600.jpg]]
-![[2025091914034900.jpg]]
-![[Pasted image 20250919144546.png]]
-![[Pasted image 20250919144643.png]]
-![[Pasted image 20250919145009.png]]
+![[Album.jpg|800]]
+![[HBMENU_DBI.jpg|800]]
+![[2025091913474600.jpg|800]]
+![[2025091914034900.jpg|800]]
+![[Pasted image 20250919144546.png|800]]
+![[Pasted image 20250919144643.png|800]]
+![[Pasted image 20250919145009.png|800]]
 
 ---
 ### Teme personalizate
@@ -64,36 +65,36 @@ Pentru a instala o tema noua, se va utiliza **Themezer-NX** sau daca nu function
 
 ---
 #### Themezer
-![[Themezer.jpg]]
-![[ThemezerMenu.jpg]]
-![[SelectionThemezer.jpg]]
-![[InstallThemezer.jpg]]
-![[POPUPThemezer.jpg]]
-![[ThemezerAccept.jpg]]
-![[ThemezerReboot.jpg]]
+![[Themezer.jpg|800]]
+![[ThemezerMenu.jpg|800]]
+![[SelectionThemezer.jpg|800]]
+![[InstallThemezer.jpg|800]]
+![[POPUPThemezer.jpg|800]]
+![[ThemezerAccept.jpg|800]]
+![[ThemezerReboot.jpg|800]]
 
 ---
 #### NxThemes-Installer
-![[NXThemes 1.jpg]]
-![[NXMENU.jpg]]
-![[NXThemezer.jpg]]
-![[NXALLAPPS.jpg]]
-![[2025091914094100.jpg]]
+![[NXThemes 1.jpg|800]]
+![[NXMENU.jpg|800]]
+![[NXThemezer.jpg|800]]
+![[NXALLAPPS.jpg|800]]
+![[2025091914094100.jpg|800]]
 
 ---
 ### Altele
 Unele aplicatii nu pornesc sau dau crash la firmware un motiv ar fi ca sunt pornite in modul **Applet**, o posibila remediere este sa il porniti in modul **Full memory/Non-Applet** tinand apasat butonul **R** de pe joycon in timp ce porniti un joc si selectati user-ul, daca ati executat cu bine instructiunea se va deschide **HBMENU** si nu va aparea **Applet Mode**.
 
 #### Applet
-![[2025091914342700.jpg]]
+![[2025091914342700.jpg|800]]
 
 #### Non-Applet
-![[2025091914344400.jpg]]
-![[2025091914342700 1.jpg]]
+![[2025091914344400.jpg|800]]
+![[2025091914342700 1.jpg|800]]
 
 ## Android
 Partitia de Android se gaseste in meniul **More Configs**->**LineageOS**.
-![[Options.bmp]]
+![[Options.bmp|800]]
 
 # Aplicatia HATS Tools WIP
 Am ajuns sa prefer aceasta aplicatie comparativ cu **DBI** deoarece include mai multe facilitati destul de importante si deasemenea include si unelete de instalat jocuri ca si in **DBI** si are un design mult mai placut. Aceasta aplicatie este esentiala pentru **actualizarea pachetului HATS** fara a mai folosi un calculator, dar mai mult si de a face **upgrade/downgrade firmware-ului** sau instalarea de **aplicatii** si **jocuri**. Mai jos voi include cateva dintre facilitatile acestei aplicatii:
@@ -111,8 +112,16 @@ Acest emulator te va ajuta sa te joci jocurile din trecut de pe consola de jocur
 Asta este cea mai simpla metoda de instalarea a aplicatiei. Folositi tutorialul din ghid si instalati direct aplicatia din **APP SHOP**.
 
 
->[!question]  Glosar ^Glosar
+
+
+>[!question]  Glosar
 >**WIP** = Work In Progress = In lucru
 >**CFW** = Custom Firmware = Sistem operare customizat
 >**OFW** = Official Firmware = Sistem operare oficial
->**ROM** = Read Only Memory = Fisier binar ce contine de regula jocul
+>**ROM** = Read Only Memory = Fisier binar ce contine de regula jocul ^glosar
+
+<span  id="glosar"></span>
+
+
+
+

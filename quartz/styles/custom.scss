@@ -1,3 +1,31 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+
+
+/* Stil pentru link-uri: opac, vizibil și subliniat */
+a, a.internal, a.external {
+  opacity: 1 !important;
+  visibility: visible !important;
+  color: #2b2b2b !important;
+  text-decoration: underline !important; /* <--- Această linie adaugă sublinierea */
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+strong a, b a {
+  font-weight: inherit !important;
+}
+
+/* Stil la hover */
+a:hover {
+  color: #6b21a8 !important;
+  text-decoration: underline !important;
+}
+
+img {
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background-color: var(--lightgray);
+  max-width: 100%;
+  height: auto;
+}
