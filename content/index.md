@@ -2,7 +2,7 @@
 title: Ghid Modare Nintendo Switch
 password: PicoFlyRomania
 ---
-Tutorial actualizat pe data de **09.08.2026!** Foloseste [[index#^glosar|Glosarul]] pentru termeni necunoscuti.
+Tutorial actualizat pe data de **10.08.2026!** Foloseste [[index#^glosar|Glosarul]] pentru termeni necunoscuti. Creat de **Muresan Alvaro**. Link-ul oficial al comunitatii noastre, il gasesti pe [[https://discord.gg/Xatgkd8Tx9|Discord]]
 
 Bun venit la tutorialul care te va ajuta sa folosesti Nintendo Switch-ul modat.
 Site-uri pentru jocuri:
