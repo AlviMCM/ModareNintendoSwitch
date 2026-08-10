@@ -97,10 +97,35 @@ Partitia de Android se gaseste in meniul **More Configs**->**LineageOS**.
 ![[Options.bmp|800]]
 
 # Aplicatia HATS Tools WIP
+>[!info|Nu exista?]
+>Aceasta aplicatie poate fi indisponibila pentru clientii mai vechi unde pe vremea aceea nu a existat. Asa ca trebuie facut update manual folosind calculatorul, apoi ar trebui sa apara. 
+>Daca aveti instalata aplicatia asigurati-va ca sunteti conectati la **internet** pentru a evita potentiale erori.
+
+Mai jos se poate observa meniul principal al aplicatiei cu toate facilitatile ei:
+![[MeniuPrincipal HATS Tools.jpg]]
+
 Am ajuns sa prefer aceasta aplicatie comparativ cu **DBI** deoarece include mai multe facilitati destul de importante si deasemenea include si unelete de instalat jocuri ca si in **DBI** si are un design mult mai placut. Aceasta aplicatie este esentiala pentru **actualizarea pachetului HATS** fara a mai folosi un calculator, dar mai mult si de a face **upgrade/downgrade firmware-ului** sau instalarea de **aplicatii** si **jocuri**. Mai jos voi include cateva dintre facilitatile acestei aplicatii:
 ## APP SHOP (Instalare aplicatii)
 Aceasta facilitate a aplicatiei va usureaza mult mai mult munca de instalare a aplicatiilor, in cazul in care acestea functioneaza si nu trebuie un build custom de la comunitatea de modare. Tot ce trebuie sa faceti este dati click (cu degetul sau controlerul) pe pictograma **APP SHOP**, iar apoi la fel pe aplicatia pe care vreti sa o instalati, dupa care apasati pe butonul de **Install**. Dupa ce ati instalat aplicatia, aveti doua optiuni **Launch** sau **Remove**, prima **lanseaza** aplicatia, iar a doua o **dezinstaleaza**. Aplicatia va aparea in **HBMENU** dupa ce ati terminat instalarea. Daca doriti sa va apare pe **HOME SCREEN(Ecranul Principal)** folositi aplicatia **SPHAIRA**. 
+## UPDATE HATSPACK
+Folosind aceasta facilitate puteti sa vad actualizati pachetul **HATS** cu care esti pregatita consola dupa modare fara a o mai conecta la calculator sau prin intermediul severelor FTP sau asemanator. **Folositi modul overwrite everything din [[#HATS Install Mode]] pentru a pastra toate aplicatiile instalate sau varianta 4 pentru instalare curata**
 
+Apasati cu degetul sau cu folosind controllerul pe pictograma **UPDATE HATSPACK** si apoi se pot vedea toate versiunile disponibile ale pachetului. Apasati pe cea mai recenta versiune si apoi **Continue** daca va avertizeaza sa faceti backup, dupa care **Download**.  Cand e gata de descarcat apasati butonul **Launch** cand va intreaba **"Launch HATS Installer?"**. Consola va intra mai apoi intr-un terminal de instalare si dupa instalare puteti intra inapoi pe **CFW EMMC** astfel ati actualizat pachetul.
+![[HATS TOOLS Releases.jpg]]
+
+
+
+
+## ADVANCED SETTINGS
+Aici gasiti setarile avansate din aplicatia [[#Aplicatia HATS Tools WIP|HATS TOOLS]]
+![[HATS TOOLS Advanced Settings.jpg]]
+### HATS Install Mode
+Puteti face update pachetului HATS in 4 moduri diferite precum:
+1. **Overwrite everything** care **suprascrie** peste pachetul vechi de HATS pastrand folderele **Atmosphere**, **Bootloader** si **Switch** de pe cardul sd.
+2. **Replace Atmosphere** care sterge folderul **Atmosphere** de pe card si il schimba cu elementele noi din pachetul descarcat pastrand folderele  **Bootloader** si **Switch**.
+3. **Replace Atmosphere + Bootloader** care sterge folderele **Atmosphere** si **Bootloader** de pe card si il schimba cu elementele noi din pachetul descarcat pastrand folderul **Switch**.
+4. **Replace Atmosphere + Bootloader + Switch** care sterge **tot (Atmosphere, Bootloader, Switch)** si instaleaza pachetul "fresh".
+![[HATS TOOLS Install Mode.jpg]]
 # Emulatoare in CFW WIP
 >[!tip] **Retroarch**
 >Chiar daca Retroarch cuprinde majoritatea emulatoarelor, am observat de-a lungul timpului ca cele instalate individual sunt mai performante decat nucleele din Retroarch. De multe ori in Retroarch am avut probleme cu **performanta** si sistemul **audio** si am stat mult timp sa incerc sa il fac sa mearga pe dispozitivele mai low end in trecut (Nintendo avand aceeasi problema), asa ca am decis ca este mai rapid si mai performant sa introduc in tutorial emulatoarele separat!
