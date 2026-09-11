@@ -108,7 +108,7 @@ Am ajuns sa prefer aceasta aplicatie comparativ cu **DBI** deoarece include mai 
 ## APP SHOP (Instalare aplicatii)
 Aceasta facilitate a aplicatiei va usureaza mult mai mult munca de instalare a aplicatiilor, in cazul in care acestea functioneaza si nu trebuie un build custom de la comunitatea de modare. Tot ce trebuie sa faceti este dati click (cu degetul sau controlerul) pe pictograma **APP SHOP**, iar apoi la fel pe aplicatia pe care vreti sa o instalati, dupa care apasati pe butonul de **Install**. Dupa ce ati instalat aplicatia, aveti doua optiuni **Launch** sau **Remove**, prima **lanseaza** aplicatia, iar a doua o **dezinstaleaza**. Aplicatia va aparea in **HBMENU** dupa ce ati terminat instalarea. Daca doriti sa va apare pe **HOME SCREEN(Ecranul Principal)** folositi aplicatia **SPHAIRA**. 
 ## UPDATE HATSPACK
-Folosind aceasta facilitate puteti sa vad actualizati pachetul **HATS** cu care esti pregatita consola dupa modare fara a o mai conecta la calculator sau prin intermediul severelor FTP sau asemanator. **Folositi modul overwrite everything din [[#HATS Install Mode]] pentru a pastra toate aplicatiile instalate sau varianta 4 pentru instalare curata**
+Folosind aceasta facilitate puteti sa vad actualizati pachetul **HATS** cu care esti pregatita consola dupa modare fara a o mai conecta la calculator sau prin intermediul severelor FTP sau asemanator. **Folositi modul overwrite everything din [[#HATS Install Mode]] pentru a pastra toate aplicatiile instalate sau varianta 4 pentru instalare curata**.
 
 Apasati cu degetul sau cu folosind controllerul pe pictograma **UPDATE HATSPACK** si apoi se pot vedea toate versiunile disponibile ale pachetului. Apasati pe cea mai recenta versiune si apoi **Continue** daca va avertizeaza sa faceti backup, dupa care **Download**.  Cand e gata de descarcat apasati butonul **Launch** cand va intreaba **"Launch HATS Installer?"**. Consola va intra mai apoi intr-un terminal de instalare si dupa instalare puteti intra inapoi pe **CFW EMMC** astfel ati actualizat pachetul.
 ![[HATS TOOLS Releases.jpg]]
@@ -136,8 +136,35 @@ Acest emulator te va ajuta sa te joci jocurile din trecut de pe consola de jocur
 ### Varianta 1: [[#APP SHOP (Instalare aplicatii)|HATS Tools APP SHOP]] (Recomandat!)
 Asta este cea mai simpla metoda de instalarea a aplicatiei. Folositi tutorialul din ghid si instalati direct aplicatia din **APP SHOP**.
 
+# Grand Theft Auto V
+Pentru a instala acest joc pe consola veti avea nevoie de urmatoarele fisiere:
+1. Grand Theft Auto Legacy: Personal de pe Steam/Rockstar Launcher/Epic Games Store sau [Din alta sursa BZZHR](https://steamrip.com/gta-5-4wi/)
+2. [NSPDRepackGUI.exe](https://1drv.ms/u/c/a79b792eb4b4f3eb/IQD6Y8qPFCffQpBbkM-jMfsqAbqMBD1ALg0Vu5kg5ufZzDU?e=4Q1iME)
+3. [gtav-patcher-4.00.7z](https://1drv.ms/u/c/a79b792eb4b4f3eb/IQBU8wPtTK8iSZbX5v3Q9PbaASxsujUsZeQPyddf3eNWe_4?e=Zkjb7I)
+4. [build-9b485eb8.7z](https://1drv.ms/u/c/a79b792eb4b4f3eb/IQAcGVG7vRwLRpg4g6oswBhCAYmssnFyuyQwvYwuHpjBFd8?e=o6lbBj)
+5. [Update.zip](https://1drv.ms/u/c/a79b792eb4b4f3eb/IQCyeWHgmb5fQZ8b_GFELCc5AUyBFbOoIUmHbK--sZ5mprE?e=DhnYYd)
 
-
+Dupa ce ati descarcat toate fisierele necesare, primul lucru care trebuie facut este sa le dezarhivati cu un program precum **7zip** sau ceva asemanator intr-un folder de lucru.
+![[Pasted image 20260911124041.png|800]]
+>[!info] 
+>Folderul cu **GTACOPY** din imagine este copia jocului instalata de pe **Rockstar Games Launcher**, dumneavoastra puteti sa faceti o copie a originalului sau nu, desi este recomandat sa aveti o copie si sa nu lucrati direct pe fisierele originale.
+Dupa ce totul arata ca si in imagine se vor efectua pasii de mai jos:
+1. Se deschide **NSPDRepackGUI.exe** apoi se alege de la butonul de **Browse** folderul **build-9b485eb8/game_nx_master.nspd** apoi se apasa pe butonul **Start repack**, dupa ce operatiunea este completa se da click pe butonul **Open output folder** sau alternativ din **outputs/(nume build)/nsp** si acolo se va gasi fisierul **.nsp** pe care il veti instala cu DBI, dupa instalare se trece mai departe.
+ ![[Pasted image 20260911125031.png]]
+ ![[Pasted image 20260911233103.png]]
+2. Se copiaza din folderul de **Update** descarcat fisierele care se termina in **.rpf** si se lipesc cu replace in folderul **update** din copia jocului peste fisierele **.rpf** de acolo.
+![[Pasted image 20260912000412.png]]
+![[Pasted image 20260912000056.png]]
+![[Pasted image 20260911233642.png]]
+3. Acum trebuie construit jocul pentru platforma Nintendo Switch folosind **gtav-patcher-4.00**, in acest tutorial se foloseste **win-x64**. Se folosesc setarile provenite in imaginea de mai jos. **GTA V Folder** este locatia folderului principal al jocului unde se gaseste si fisierul executabil. **Platform pack** se gaseste in folderul **build-9b485eb8/platformpack**. Dupa ce v-ati asigurat ca toate setarile sunt bune, mai jos dati click pe butonul **Patch** cu albastru si asteptati pana ce fisierele sunt convertite. Atentie, conversia dureaza destul de mult! La final daca totul a decurs bine puteti verifica daca fisierele din folderul principal al jocului are fisiere care au in nume **switch.rpf** in loc de **x64.rpf** si a aparut folderul **switch**.
+![[Pasted image 20260911234039.png]]
+![[Pasted image 20260911234239.png]]
+![[Pasted image 20260912000509.png]]
+4. Acesta este pasul final care de asemenea dureaza destul de mult, dar este si destul de usor, tot ce trebuie sa faceti este sa creati un folder denumit **romfs** in **\atmosphere\contents\0100B00B51230000** si sa copiati datele convertite ale jocului de la pasul 3 si ar trebui sa arate ca si mai jos:
+![[Pasted image 20260911235938.png]]
+>[!warning] Probleme
+>Daca jocul da crash dupa ce ati urmat pasii, cel mai probabil nu s-au copiat toate fisierele cum trebui, mai dati odata paste si verificati manual care fisiere lipsesc, cel mai probabil lipsesc cele din folderul nou creat denumit **switch**.
+>Cred ca cea mai buna solutie ca acest lucru sa nu se intample este sa scoateti cardul din consola si sa le copiati direct de pe PC.
 
 >[!question]  Glosar
 >**WIP** = Work In Progress = In lucru
